@@ -7,7 +7,11 @@ async function init(
   originalStructureUrl,
   residueLogsUrl
 ) {
-  await context.init(optimizedStructureUrl, originalStructureUrl, residueLogsUrl);
+  await context.init(
+    optimizedStructureUrl,
+    originalStructureUrl,
+    residueLogsUrl
+  );
 
   mountViewControls();
   mountColorControls();
